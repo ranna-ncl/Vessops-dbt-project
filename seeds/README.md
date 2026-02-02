@@ -1,0 +1,1 @@
+This directory contains CSV files that are used to seed data into your database.

@@ -1,0 +1,20 @@
+name: Manage DBT Environment Variables
+
+on:
+  push:
+    branches:
+      - '*'
+    paths:
+      - 'environment_variables/environment_variables.yaml'
+  workflow_dispatch:
+
+jobs:
+  manage-dbt-env-vars:
+    uses: norwegian-cruise-line/edm-devops/.github/workflows/reusable_manage_dbt_env_vars.yml@main
+    secrets:
+      NV_PAT: ${{ secrets.NV_PAT }}
+      DBT_API_TOKEN: ${{ secrets.DBT_API_TOKEN }}
+      DBT_ACCOUNT_ID: ${{ secrets.DBT_ACCOUNT_ID }}
+    with:
+      common-repo-branch: main
+      target_env: ${{ github.event.inputs.target_env }}

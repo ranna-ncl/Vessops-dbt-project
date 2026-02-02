@@ -1,0 +1,1 @@
+This directory contains SQL files for exploratory analysis or other queries that do not directly contribute to the final data models.

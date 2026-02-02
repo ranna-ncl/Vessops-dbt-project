@@ -1,0 +1,1 @@
+This directory contains SQL files that define tests for data quality and integrity.

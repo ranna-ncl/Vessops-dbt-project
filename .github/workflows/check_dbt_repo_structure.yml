@@ -1,0 +1,16 @@
+name: Check DBT Repository Structure
+
+on:
+  pull_request:
+    branches:
+      - dev
+      - qa
+  workflow_dispatch:   
+
+jobs:
+  calling-check-dbt-structure:
+    uses: norwegian-cruise-line/edm-devops/.github/workflows/reusable_check_dbt_repo_structure.yml@main
+    secrets:
+      NV_PAT: ${{ secrets.NV_PAT }}
+    with:
+      common-repo-branch: main

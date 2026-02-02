@@ -1,0 +1,1 @@
+This directory is used for snapshotting source data at specific intervals for historical comparisons.

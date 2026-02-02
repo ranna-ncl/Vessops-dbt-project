@@ -1,0 +1,13 @@
+project_name: PROJECT_NAME #change PROJECT_NAME with actual name of DBT project in DBT Cloud 
+variables:
+# # Add env variables in the following lines like below examples for DBT_ENVIRONMENT_ONE_LETTER and DBT_ENVIRONMENT (use precise indentation)
+  # DBT_ENVIRONMENT_ONE_LETTER:
+  #   development: "D"
+  #   dev: "D"
+  #   qa: "Q"
+  #   prod: "P"
+  # DBT_ENVIRONMENT:
+  #   development: "DEV"
+  #   dev: "DEV"
+  #   qa: "QA"
+  #   prod: "PROD"
