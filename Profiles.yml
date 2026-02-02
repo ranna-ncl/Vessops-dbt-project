@@ -1,0 +1,15 @@
+VFM_DBT:
+  target: dev
+  outputs:
+    staging:
+      type: snowflake
+      role: SYSADMINDEV
+      warehouse: WH_PG200
+      database: VESSOPS_D
+      schema: L00_STG
+    RDV:
+      type: snowflake
+      role: SYSADMINDEV
+      warehouse: WH_PG200
+      database: VESSOPS_D
+      schema: L00_RDV
