@@ -15,7 +15,12 @@ macro-paths:
 snapshot-paths:
   - snapshots
 models:
-  staging:
-    NCL:
-      +materialized: view
-      +schema: L00_STG
+    staging:
+      vfm_ncl_stg:
+        +materialized: view
+        +schema: L00_STG
+    RDV:
+      vfm_ncl:
+        +materialized: incremental
+        +schema: L10_RDV
+        

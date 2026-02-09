@@ -1,0 +1,1 @@
+select * from VFM_NCL_SHIP_CLASS
