@@ -18,4 +18,6 @@ sources:
       - name: VFM_NCL_ALBS
       - name: VFM_NCL_GSS
       - name: IMO_SHIP_DETAILS
+      - name: VFM_NCL_FDR_REPORT
+      - name: VFM_NCL_FUEL_TONNAGE
 
