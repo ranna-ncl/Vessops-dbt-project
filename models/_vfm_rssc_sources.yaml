@@ -1,0 +1,21 @@
+version: 2
+sources:
+  - name: vfm_rssc_stg
+    database: VESSOPS_D
+    schema: L00_STG
+    tables:
+      - name: VFM_RSSC_FUEL_PSFT
+      - name: VFM_RSSC_CREW_PSFT
+      - name: VFM_RSSC_FOOD_PSFT
+      - name: VFM_RSSC_OSO_PSFT
+      - name: VFM_RSSC_PORT_PSFT
+      - name: VFM_RSSC_MR_PSFT
+      - name: VFM_RSSC_NTR_PSFT
+      - name: VFM_RSSC_OBR_PSFT
+      - name: IMO_SHIP_DETAILS
+      - name: VFM_RSSC_FDR_REPORT
+      - name: VFM_RSSC_FUEL_TONNAGE
+      - name: VFM_PCH_GSS
+      - name: VFM_PCH_ITINERARY
+
+

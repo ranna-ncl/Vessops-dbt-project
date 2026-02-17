@@ -1,0 +1,21 @@
+version: 2
+sources:
+  - name: vfm_oci_stg
+    database: VESSOPS_D
+    schema: L00_STG
+    tables:
+      - name: VFM_PCH_SAILING_MASTER
+      - name: VFM_OCI_FUEL_PSFT
+      - name: VFM_OCI_CREW_PSFT
+      - name: VFM_OCI_FOOD_PSFT
+      - name: VFM_OCI_OSO_PSFT
+      - name: VFM_OCI_PORT_PSFT
+      - name: VFM_OCI_MR_PSFT
+      - name: VFM_OCI_NTR_PSFT
+      - name: VFM_OCI_OBR_PSFT
+      - name: IMO_SHIP_DETAILS
+      - name: VFM_OCI_FDR_REPORT
+      - name: VFM_OCI_FUEL_TONNAGE
+      - name: VFM_PCH_GSS
+      - name: VFM_PCH_ITINERARY
+

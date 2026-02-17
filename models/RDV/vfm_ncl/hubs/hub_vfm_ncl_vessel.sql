@@ -14,4 +14,3 @@ select * from src
 {% if is_incremental() %}
 where hk_vessel not in (select hk_vessel from {{ this }})
 {% endif %}
-

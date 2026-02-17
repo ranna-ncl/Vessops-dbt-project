@@ -50,12 +50,7 @@ hd as (
                 'VESSEL_IMO',
                 'ACCOUNT_DESCRIPTION',
                 'FISCAL_YEAR_NBR',
-                'ACCOUNTING_PERIOD_NBR',
-                'HK_OPERATING_UNIT',
-                'HK_VESSEL',
-                'HK_ACCOUNT',
-                'HK_LNK_OU_VESSEL_ACCOUNT',
-                'SOURCE_FILE_NAME','SOURCE_FILE_ROW','LOAD_DTS','REC_SRC'
+                'ACCOUNTING_PERIOD_NBR'
             )
         ))) as hashdiff
 

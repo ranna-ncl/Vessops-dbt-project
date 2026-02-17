@@ -30,10 +30,7 @@ hd as (
                 object_construct_keep_null(*),
                 'VOYAGE_BY_SAILING',
                 'PRORATED_SAIL_YEAR_NBR',
-                'PRORATED_SAIL_MONTH_NBR',
-                'FDR_BK',
-                'HK_FDR',
-                'SOURCE_FILE_NAME','SOURCE_FILE_ROW','LOAD_DTS','REC_SRC'
+                'PRORATED_SAIL_MONTH_NBR'
             )
         ))) as hashdiff
 

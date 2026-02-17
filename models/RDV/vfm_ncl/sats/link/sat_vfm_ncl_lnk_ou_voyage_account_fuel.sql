@@ -1,4 +1,4 @@
-{{ config(materialized='incremental', unique_key=['HK_LNK_OU_VOYAGE_ACCOUNT','HASHDIFF','LDTS']) }}
+{{ config(materialized='incremental', unique_key=['HK_LNK_OU_VOYAGE_ACCOUNT','HASHDIFF','LDTS','JOURNAL_MONETARY_AMOUNT_ADJ']) }}
 
 with src as (
   select

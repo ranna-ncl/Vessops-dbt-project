@@ -19,8 +19,20 @@ models:
       vfm_ncl_stg:
         +materialized: view
         +schema: L00_STG
+      vfm_oci_stg:
+        +materialized: view
+        +schema: L00_STG
+      vfm_rssc_stg:
+        +materialized: view
+        +schema: L00_STG
     RDV:
       vfm_ncl:
+        +materialized: incremental
+        +schema: L10_RDV
+      vfm_oci:
+        +materialized: incremental
+        +schema: L10_RDV
+      vfm_rssc:
         +materialized: incremental
         +schema: L10_RDV
         

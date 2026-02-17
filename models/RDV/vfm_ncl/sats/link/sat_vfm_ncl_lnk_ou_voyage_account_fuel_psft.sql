@@ -1,4 +1,4 @@
-{{ config(schema='L10_RDV', materialized='incremental', unique_key=['HK_LNK_OU_VOYAGE_ACCOUNT','LDTS']) }}
+{{ config(schema='L10_RDV', materialized='incremental', unique_key=['HK_LNK_OU_VOYAGE_ACCOUNT','LDTS','JOURNAL_MONETARY_AMOUNT_ADJ']) }}
 
 select
   hk_lnk_ou_voyage_account,

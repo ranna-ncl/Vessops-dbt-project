@@ -13,6 +13,9 @@
                 
                 
             
+                
+                
+            
         
     
 
@@ -26,6 +29,8 @@
                     DBT_INTERNAL_SOURCE.HASHDIFF = DBT_INTERNAL_DEST.HASHDIFF
                 ) and (
                     DBT_INTERNAL_SOURCE.LDTS = DBT_INTERNAL_DEST.LDTS
+                ) and (
+                    DBT_INTERNAL_SOURCE.JOURNAL_MONETARY_AMOUNT_ADJ = DBT_INTERNAL_DEST.JOURNAL_MONETARY_AMOUNT_ADJ
                 )
 
     
